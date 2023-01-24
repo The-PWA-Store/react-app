@@ -40,10 +40,14 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script
-      type="text/javascript"
-      id="thepwastore"
-      data-app-id="1SJoyaSGatX561DgUJac"
-      src="https://script-pwa-store.vercel.app/index.js"
+      type="module"
+      src="https://script-pwa-store.vercel.app/module.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://script-pwa-store.vercel.app/main.js"
+      defer
     ></script>
   </body>
 </html>
