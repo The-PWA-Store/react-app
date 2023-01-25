@@ -42,13 +42,13 @@
 
     <% if (process.env.REACT_APP_NODE_ENV === 'development') { %>
 
-    <script type="module" src="http://localhost:1234/main.js" defer></script>
+    <script type="module" src="http://localhost:1234/index.js" defer></script>
 
     <% } %> <% if (process.env.REACT_APP_NODE_ENV === 'production') { %>
 
     <script
       type="module"
-      src="https://script-pwa-store.vercel.app/main.js"
+      src="https://script-pwa-store.vercel.app/index.js"
       defer
     ></script>
 
